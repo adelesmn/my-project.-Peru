@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*font-family: 'Roboto', sans-serif;*/
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;  
+    background-color: pink;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.separator{
+    height: 7px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color:deeppink;
+}
+
+
+/* header */
+.header{
+    background-color: coral;
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+}
+
+.logo{
+    color: purple;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+.menu a{
+    color:purple;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color: lavender;
+}
+
+/*banner*/
+
+.container-fluid{
+    padding-left: 0;
+} 
+
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    width: 80%;
+    max-width: 80%;
+    display: block;
+    margin-left: auto; margin-right: auto;  
+}
+
+.inner-banner, h1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: purple;
+}
+
+/*about*/
+
+.about article h2{
+    text-align: center;
+    background-color:pink;
+
+}
+ 
+.about article{
+    margin-top: 4%;
+    
+}
+
+/*portefolio*/
+
+.portefolio{
+    background-color:pink;
+    height: 900px;
+}
+
+#portefolio{
+    text-align: center;
+}
+
+.portefolio .item-folio{
+    height: 280px;
+    background-color: pink;
+}
+
+.img-fluid{
+    margin-top: 3%;
+    display: grid;
+    margin-bottom: 5%;
+}
+
+.video{
+    width: 110px;
+    height: 110px;
+    margin-top: 10%;
+    display: block;
+    margin-left: 28.5%; margin-right: 50%;
+
+}
+/*footer*/
+.footer{
+    background-color: pink;
+}
+
+#contact{
+    color: purple;
+    text-align: center;
+    margin-top: 24%;
+}
+
+.formulaireContact{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    background-color: darksalmon;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+input[type=text] {
+    height: 50px;
+    width: 500px;
+    border: none;
+    background-color: darksalmon;
+}
+
+input[type=email] {
+    height: 50px;
+    width: 500px;
+    border: none;
+    background-color: darksalmon;
+}
+
+ 
+
+ 
